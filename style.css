@@ -1,0 +1,248 @@
+body{
+    margin: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    /* font-family: 'Gideon Roman', cursive; */
+    font-family: 'Cormorant Garamond', serif;
+}
+h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #a8dadc;
+    margin-top:0;
+    /* margin-bottom: 0; */
+    border-bottom: 2px solid black;
+    position: fixed;
+    width: 100%;
+
+}
+ div{
+    display: inline-block;
+}
+/* .img_name img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+} */
+.nav{
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-weight: 100;
+
+}
+.head{
+    height: 60px;
+}
+.img_name{
+    width: 40%;
+    
+    /* display: flex;
+    flex-direction: row;
+    justify-content:left; */
+    font-weight: 450;
+    padding-left: 20px;
+    padding-top: 5px;
+
+}
+
+
+.img_name div{
+    padding-top: auto;
+    padding-bottom: auto;
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    transition: all 2s ease;
+    font-size: 18px;
+    font-weight: 700;
+   padding:6px 12px;
+   
+ 
+    
+}
+.nav-item{
+    margin-top: 4px;
+  
+}
+.nav-item a:hover{
+    font-size: 20px;
+    text-decoration: underline;
+    border-radius: 10%;
+    background-color: #fff;
+}
+#intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    /* height: 500px; */
+    padding-top: 100px;
+    /* margin-bottom: 0; */
+}
+.me{
+    line-height: 4px;
+}
+
+.me p:nth-of-type(1){
+    padding-top: 90px;
+    font-size: 24px;
+    text-align: center;
+}
+.me p:nth-of-type(2){
+    font-size: 40px;
+    color: #a8dadc;
+    font-weight: 700;
+}
+.me p:nth-of-type(3)
+{
+    text-align: center;
+    font-size: 20px;
+
+}
+ .img img{
+    width: 200px;
+    height: 300px;
+    border-radius: 50%;
+    box-shadow: 0px -1px 22px 2px #a8dadc;
+    
+}
+.about1{
+    width: 100%;
+    height: 550px;
+    background-color: #a8dadc;
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.about1 div{
+    margin-top: 35px;
+}
+.ame{
+    text-align: center;
+     font-size: 45px;
+     text-decoration: underline;
+     background-color: #a8dadc;
+     margin-bottom: 0;
+}
+.about1 a{
+    text-decoration: none;
+    color: red;
+}
+.about1 a:hover{
+    text-decoration: underline;
+}
+ 
+.logo img{
+    width: 340px;
+    height: 450px;
+    border-radius: 50%;
+}   
+.para{
+    width: 50%;
+    font-size: 25px;
+} 
+.marks{
+    margin-top: 0px;
+}
+.sme{
+    text-align: center;
+    font-size: 45px;
+    text-decoration: underline;
+    margin-top: 4px;
+}
+.skill1{
+    width: 100%;
+    height: 300px;
+    margin:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.slogo img{
+    width: 250px;
+    height: 250px;
+    border-radius: 45%;
+    border:2px solid #ee9b00;
+}
+.lan
+{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+}
+#hobbie{
+    background-color: #a8dadc;
+    height: 440px;
+    /* transform: rotate(-2deg); */
+}
+.hme{
+    text-align: center;
+     font-size: 45px;
+     text-decoration: underline;
+     background-color: #a8dadc;
+     margin-top: 40px;
+     margin-bottom: 0;
+     padding-top: 10px;
+}
+.hobbie1{
+    width: 100%;
+    height: 330px;
+    margin:0;
+    background-color: #a8dadc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+
+}
+.hlogo img{
+    width: 250px;
+    height: 250px;
+    margin-top: 40px;
+    border-radius: 45%;
+    border:2px solid #ee9b00;
+
+}
+
+.hname
+{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 5px;
+}
+#contact{
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.clogo{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 30%;
+    margin-top: 10px;
+}
+.clogo img{
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    transition: all 1.5s ease;
+}
+.clogo img:hover{
+    width: 50px;
+    height: 45px;
+}
+.email{
+    font-size: 18px;
+    line-height: 25px;
+}
